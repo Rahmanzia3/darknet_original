@@ -90,8 +90,9 @@ if __name__ == "__main__":
     unzip_dir = '/app/darknet/task/'
 
 # This is valid in local
-    extract_dir = '/home/tericsoft/team_alpha/automate_yolo/test_download/'
-
+    # extract_dir = '/home/tericsoft/team_alpha/automate_yolo/test_download/'
+# This is valid in Docker
+    extract_dir = '/app/darknet/task/'
 
 
     download_file_from_google_drive(google_drive_id,download_directory)
